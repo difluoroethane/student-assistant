@@ -1,0 +1,827 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:28:9-36:20
+	android:grantUriPermissions
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:32:13-47
+	android:authorities
+		INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:30:13-64
+	android:exported
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:29:13-62
+manifest
+ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [androidx.navigation:navigation-common:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1154d45115acd9f3b24f275ba00cba29/transformed/navigation-common-2.8.9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/fcf99604e1e66c3cdc18719ba9d7b623/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e9990f40adbab68b5d0eb23fdcec4681/transformed/navigation-common-ktx-2.8.9/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/816f1036be35b2cd8d2c268a5df2e0d5/transformed/navigation-runtime-ktx-2.8.9/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/02abc111294878776a51dc2a2ef96510/transformed/jetified-navigation-compose-2.8.9/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9ee8c0ed3f582962899ff8d1d1894246/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5de993aedd4f6791b2a146a86b0f52e5/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/07b0f3285e50ee236946aa2c1a9625f4/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5a1fbbd497795ee09c6fb326ea313eb8/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/f951d71f06530f65c601b306fe01a4a8/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/difluoroethane/.gradle/caches/9.3.1/transforms/8c499fe846a91c49ee91ac98a1daf815/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/04ec76a222f400b1ec39cb340258e975/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1d078efd575da16dfc0b8f4a3fcf0f07/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c1f9d6adf2e76383e7d467d403128160/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/77d2fea34edbb3cfab0e6e2c4e264c1c/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9a200d91171b085759c512c21b31579f/transformed/jetified-integrity-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.browser:browser:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/aae4005a73d477c216d6a19833e56cd9/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.coil-kt:coil-compose:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0ca0aaba541751d7c2e05d0b2f289317/transformed/jetified-coil-compose-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d396e896255b7a1a1cb3142ecec7eb24/transformed/jetified-coil-compose-base-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/471af04b7ead0d311f692440acbd1fe9/transformed/jetified-coil-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/459c4c3f6901546a4d7ada3d6b1b7041/transformed/jetified-coil-base-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1ef987d66ee5ed93c6a30701443eee27/transformed/jetified-material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/466ee88b6937bcefb7373fdf38d5511d/transformed/jetified-material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/97557aa85480128749e2f3b0243118df/transformed/jetified-material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/8401e1d5148c017cb37c459c29c187a5/transformed/jetified-foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/412fa0f5167fce876f9951b1c26b4163/transformed/jetified-foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/75099a443d05480ca7ecc4829718465e/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/efb5d091475b9cdc9037c5623f821d88/transformed/jetified-animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/42139e512a6c7754395fc36c9d7e5757/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3cd360f60d00a112767ac29b0dd22b81/transformed/jetified-ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/19a47d9687b66473fd551e7ed91af290/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/68400e9f57a123cbd42f09520f1874f3/transformed/jetified-ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c18e6c05f8f186960678f62f21382bb/transformed/jetified-ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e1a2af0fb8e64f5dc6eb40be1e8472ee/transformed/jetified-ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b12890455fa8bbdc4f5a814073ea1a77/transformed/jetified-ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/663965f2bad9226d5ac77a07324dbf31/transformed/jetified-ui-test-manifest-1.7.2/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7cad6a6ac829f3aabfc8a46fc252cb9d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/2777f56b1bf720f9abf9e58ee6ddcfe2/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/266f637d053bf216f8d953651258912f/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b937f7e3f44f403942247fbff850f13f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b98a8f7194910547c539151ff06195c6/transformed/jetified-lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e631618760ca5bbfc28974c65f993409/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/712eda40fa2a0736b8bacf8b6ececa61/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b39b940352b881fa4089bf6702f2d3d1/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/2bc748fa0d696f268d1ec5cdec135a62/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c5be24101deee1e59f476fe5f6c653cd/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/12acdd92f0d95c3a2cf2c3ee53fa6712/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/41a9bb4820dc45e53b820030e7145246/transformed/jetified-lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/cd4b53c0df6a320d546c136520a1a16b/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/2a974ea855bf767ef7fd72b2d1576064/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/8d44d871d823b1392ce69f5e960c8075/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/69f05e2eff58a3c6ac8751a5158e9b65/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/295b18074fb89c1886292b4cd8120e38/transformed/jetified-accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/4b7b09e1421e44a1ec13513d2abda11a/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b02bc02d1b599e54dd9e1b2494333b71/transformed/jetified-material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/bd189100410a3a539640fdd984aa2ed9/transformed/jetified-ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/46c3e9c7f7ed149782c72382d7be2d27/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1a0c9b2af27f7ff7b8be6cf5b08fb552/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/dd877e5b689495130efe8bb8fc9770b8/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/34718cdc3d3dbacc76d7f5853f43b7b2/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0ca5884b128272fa5e8d9d536c413d5d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/50691196ca337928f4d018410f4fd40c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1d35275bb15ca43fc10cfe587171365d/transformed/jetified-graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.room:room-ktx:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b13ae606429aba385ab8191349598457/transformed/jetified-room-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db-base:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d40e0f12d46b745bf989124076b94fd1/transformed/jetified-debug-db-base-v1.0.6/AndroidManifest.xml:20:1-32:12
+MERGED from [androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/761d9e81c80af42f13d9b80eafb60bc7/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/15246dc4effa810dec4b2c6d8126840b/transformed/jetified-runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/cfca67d886b0f7ea2788934ba8ff3373/transformed/jetified-datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/f2ada68a2698e4dd932ec44d8178c5bf/transformed/jetified-datastore-preferences-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e1080e5101d93e69f33da28846259694/transformed/jetified-datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45396c0ff001d718ce04c99679e868f9/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/19c9edd419dac2e9c1d17b3bb5ebe9cf/transformed/jetified-play-services-tasks-18.4.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5224b287679ad03a810947552b73c5cb/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/af99de5a6f089068192d428adddc7b55/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.10.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a0f42effd6c7a06c97b5bdaf35bee8f8/transformed/jetified-activity-1.10.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.10.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/68fc90afe68afca909ef9d8af3a10669/transformed/jetified-activity-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.10.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9d7fd15aead50a74e786a3afa717680f/transformed/jetified-activity-compose-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/dd49e4edafac0a878a99bd0636d246de/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/53074d746bda121fc636c570075992ef/transformed/jetified-core-ktx-1.18.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e36079c65b71d37918ae253dfcafddf7/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/abb36d76400a06d0dc0ce17fd612cd5b/transformed/jetified-core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/86ca61e0541b36f93c21c4c3d4a0ec90/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework-android:2.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/35c4fbd3c08e0d00fbaea6d5ad92930c/transformed/jetified-sqlite-framework-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-android:2.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/23681a4d6704e1c665b766d95f3ec0b7/transformed/jetified-sqlite-release/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:19.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d7e152fb31e8315d41f95bfc795cd702/transformed/jetified-firebase-components-19.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9bb3cb3f77c0f273b54e47cc4c831efe/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b5efbf59dd9d565f13a1c8f3e27b6e3c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e21cf98418179207453fec44be563ed9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d32574bcf4b926283d552348c5753982/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/18ff1b5c53b4ee091ff1745c3163ae77/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/43cf6b81c19ac8bf295dbe00878e38f7/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7a1d9c0aefae66ecc2cd456aae65c5a7/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/68cafc35caf8721c854cfc028bba558b/transformed/jetified-protolite-well-known-types-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [io.grpc:grpc-android:1.62.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c144fee78507648f600513e1aef9cd0f/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:2:1-21:12
+	package
+		INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/77d2fea34edbb3cfab0e6e2c4e264c1c/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/77d2fea34edbb3cfab0e6e2c4e264c1c/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:7:5-67
+MERGED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db-base:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d40e0f12d46b745bf989124076b94fd1/transformed/jetified-debug-db-base-v1.0.6/AndroidManifest.xml:29:5-67
+MERGED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db-base:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d40e0f12d46b745bf989124076b94fd1/transformed/jetified-debug-db-base-v1.0.6/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/77d2fea34edbb3cfab0e6e2c4e264c1c/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/77d2fea34edbb3cfab0e6e2c4e264c1c/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:8:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c144fee78507648f600513e1aef9cd0f/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c144fee78507648f600513e1aef9cd0f/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:6:5-83
+	android:name
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:6:22-80
+application
+ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:8:5-37:19
+INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:8:5-37:19
+MERGED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:26:5-37:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5a1fbbd497795ee09c6fb326ea313eb8/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5a1fbbd497795ee09c6fb326ea313eb8/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/f951d71f06530f65c601b306fe01a4a8/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/f951d71f06530f65c601b306fe01a4a8/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/04ec76a222f400b1ec39cb340258e975/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/04ec76a222f400b1ec39cb340258e975/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1d078efd575da16dfc0b8f4a3fcf0f07/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1d078efd575da16dfc0b8f4a3fcf0f07/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c1f9d6adf2e76383e7d467d403128160/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c1f9d6adf2e76383e7d467d403128160/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.play:integrity:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9a200d91171b085759c512c21b31579f/transformed/jetified-integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9a200d91171b085759c512c21b31579f/transformed/jetified-integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/663965f2bad9226d5ac77a07324dbf31/transformed/jetified-ui-test-manifest-1.7.2/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/663965f2bad9226d5ac77a07324dbf31/transformed/jetified-ui-test-manifest-1.7.2/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7cad6a6ac829f3aabfc8a46fc252cb9d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7cad6a6ac829f3aabfc8a46fc252cb9d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e631618760ca5bbfc28974c65f993409/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e631618760ca5bbfc28974c65f993409/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:28:5-89
+MERGED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:11:5-17:19
+MERGED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:11:5-17:19
+MERGED from [androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:23:5-29:19
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/19c9edd419dac2e9c1d17b3bb5ebe9cf/transformed/jetified-play-services-tasks-18.4.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/19c9edd419dac2e9c1d17b3bb5ebe9cf/transformed/jetified-play-services-tasks-18.4.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5224b287679ad03a810947552b73c5cb/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5224b287679ad03a810947552b73c5cb/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e21cf98418179207453fec44be563ed9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e21cf98418179207453fec44be563ed9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/18ff1b5c53b4ee091ff1745c3163ae77/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/18ff1b5c53b4ee091ff1745c3163ae77/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:16:9-54
+	android:usesCleartextTraffic
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:11:9-44
+	android:name
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:9:9-44
+activity#com.example.MainActivity
+ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:17:9-26:20
+	android:windowSoftInputMode
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:20:13-55
+	android:exported
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:19:13-36
+	android:theme
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:21:13-58
+	android:name
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:24:27-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:33:13-35:54
+	android:resource
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:35:17-51
+	android:name
+		ADDED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:34:17-67
+uses-sdk
+INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml
+INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1154d45115acd9f3b24f275ba00cba29/transformed/navigation-common-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1154d45115acd9f3b24f275ba00cba29/transformed/navigation-common-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/fcf99604e1e66c3cdc18719ba9d7b623/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/fcf99604e1e66c3cdc18719ba9d7b623/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e9990f40adbab68b5d0eb23fdcec4681/transformed/navigation-common-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e9990f40adbab68b5d0eb23fdcec4681/transformed/navigation-common-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/816f1036be35b2cd8d2c268a5df2e0d5/transformed/navigation-runtime-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/816f1036be35b2cd8d2c268a5df2e0d5/transformed/navigation-runtime-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/02abc111294878776a51dc2a2ef96510/transformed/jetified-navigation-compose-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.9] /home/difluoroethane/.gradle/caches/9.3.1/transforms/02abc111294878776a51dc2a2ef96510/transformed/jetified-navigation-compose-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9ee8c0ed3f582962899ff8d1d1894246/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9ee8c0ed3f582962899ff8d1d1894246/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5de993aedd4f6791b2a146a86b0f52e5/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5de993aedd4f6791b2a146a86b0f52e5/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/07b0f3285e50ee236946aa2c1a9625f4/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/07b0f3285e50ee236946aa2c1a9625f4/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5a1fbbd497795ee09c6fb326ea313eb8/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5a1fbbd497795ee09c6fb326ea313eb8/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/f951d71f06530f65c601b306fe01a4a8/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/f951d71f06530f65c601b306fe01a4a8/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/difluoroethane/.gradle/caches/9.3.1/transforms/8c499fe846a91c49ee91ac98a1daf815/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/difluoroethane/.gradle/caches/9.3.1/transforms/8c499fe846a91c49ee91ac98a1daf815/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/04ec76a222f400b1ec39cb340258e975/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/04ec76a222f400b1ec39cb340258e975/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1d078efd575da16dfc0b8f4a3fcf0f07/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1d078efd575da16dfc0b8f4a3fcf0f07/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c1f9d6adf2e76383e7d467d403128160/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c1f9d6adf2e76383e7d467d403128160/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/77d2fea34edbb3cfab0e6e2c4e264c1c/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/77d2fea34edbb3cfab0e6e2c4e264c1c/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9a200d91171b085759c512c21b31579f/transformed/jetified-integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9a200d91171b085759c512c21b31579f/transformed/jetified-integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [androidx.browser:browser:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/aae4005a73d477c216d6a19833e56cd9/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/aae4005a73d477c216d6a19833e56cd9/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil-compose:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0ca0aaba541751d7c2e05d0b2f289317/transformed/jetified-coil-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0ca0aaba541751d7c2e05d0b2f289317/transformed/jetified-coil-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d396e896255b7a1a1cb3142ecec7eb24/transformed/jetified-coil-compose-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d396e896255b7a1a1cb3142ecec7eb24/transformed/jetified-coil-compose-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/471af04b7ead0d311f692440acbd1fe9/transformed/jetified-coil-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/471af04b7ead0d311f692440acbd1fe9/transformed/jetified-coil-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/459c4c3f6901546a4d7ada3d6b1b7041/transformed/jetified-coil-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/459c4c3f6901546a4d7ada3d6b1b7041/transformed/jetified-coil-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1ef987d66ee5ed93c6a30701443eee27/transformed/jetified-material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1ef987d66ee5ed93c6a30701443eee27/transformed/jetified-material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/466ee88b6937bcefb7373fdf38d5511d/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/466ee88b6937bcefb7373fdf38d5511d/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/97557aa85480128749e2f3b0243118df/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/97557aa85480128749e2f3b0243118df/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/8401e1d5148c017cb37c459c29c187a5/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/8401e1d5148c017cb37c459c29c187a5/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/412fa0f5167fce876f9951b1c26b4163/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/412fa0f5167fce876f9951b1c26b4163/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/75099a443d05480ca7ecc4829718465e/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/75099a443d05480ca7ecc4829718465e/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/efb5d091475b9cdc9037c5623f821d88/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/efb5d091475b9cdc9037c5623f821d88/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/42139e512a6c7754395fc36c9d7e5757/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/42139e512a6c7754395fc36c9d7e5757/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3cd360f60d00a112767ac29b0dd22b81/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3cd360f60d00a112767ac29b0dd22b81/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/19a47d9687b66473fd551e7ed91af290/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/19a47d9687b66473fd551e7ed91af290/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/68400e9f57a123cbd42f09520f1874f3/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/68400e9f57a123cbd42f09520f1874f3/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c18e6c05f8f186960678f62f21382bb/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c18e6c05f8f186960678f62f21382bb/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e1a2af0fb8e64f5dc6eb40be1e8472ee/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e1a2af0fb8e64f5dc6eb40be1e8472ee/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b12890455fa8bbdc4f5a814073ea1a77/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b12890455fa8bbdc4f5a814073ea1a77/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/663965f2bad9226d5ac77a07324dbf31/transformed/jetified-ui-test-manifest-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/663965f2bad9226d5ac77a07324dbf31/transformed/jetified-ui-test-manifest-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7cad6a6ac829f3aabfc8a46fc252cb9d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7cad6a6ac829f3aabfc8a46fc252cb9d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/2777f56b1bf720f9abf9e58ee6ddcfe2/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/2777f56b1bf720f9abf9e58ee6ddcfe2/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/266f637d053bf216f8d953651258912f/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/266f637d053bf216f8d953651258912f/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b937f7e3f44f403942247fbff850f13f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b937f7e3f44f403942247fbff850f13f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b98a8f7194910547c539151ff06195c6/transformed/jetified-lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b98a8f7194910547c539151ff06195c6/transformed/jetified-lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e631618760ca5bbfc28974c65f993409/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e631618760ca5bbfc28974c65f993409/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/712eda40fa2a0736b8bacf8b6ececa61/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/712eda40fa2a0736b8bacf8b6ececa61/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b39b940352b881fa4089bf6702f2d3d1/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b39b940352b881fa4089bf6702f2d3d1/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/2bc748fa0d696f268d1ec5cdec135a62/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/2bc748fa0d696f268d1ec5cdec135a62/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c5be24101deee1e59f476fe5f6c653cd/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c5be24101deee1e59f476fe5f6c653cd/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/12acdd92f0d95c3a2cf2c3ee53fa6712/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/12acdd92f0d95c3a2cf2c3ee53fa6712/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/41a9bb4820dc45e53b820030e7145246/transformed/jetified-lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/41a9bb4820dc45e53b820030e7145246/transformed/jetified-lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/cd4b53c0df6a320d546c136520a1a16b/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/cd4b53c0df6a320d546c136520a1a16b/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/2a974ea855bf767ef7fd72b2d1576064/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/2a974ea855bf767ef7fd72b2d1576064/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/8d44d871d823b1392ce69f5e960c8075/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/8d44d871d823b1392ce69f5e960c8075/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/69f05e2eff58a3c6ac8751a5158e9b65/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/69f05e2eff58a3c6ac8751a5158e9b65/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/295b18074fb89c1886292b4cd8120e38/transformed/jetified-accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/295b18074fb89c1886292b4cd8120e38/transformed/jetified-accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/4b7b09e1421e44a1ec13513d2abda11a/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/4b7b09e1421e44a1ec13513d2abda11a/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b02bc02d1b599e54dd9e1b2494333b71/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b02bc02d1b599e54dd9e1b2494333b71/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/bd189100410a3a539640fdd984aa2ed9/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/bd189100410a3a539640fdd984aa2ed9/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/46c3e9c7f7ed149782c72382d7be2d27/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/46c3e9c7f7ed149782c72382d7be2d27/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1a0c9b2af27f7ff7b8be6cf5b08fb552/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1a0c9b2af27f7ff7b8be6cf5b08fb552/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/dd877e5b689495130efe8bb8fc9770b8/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/dd877e5b689495130efe8bb8fc9770b8/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/34718cdc3d3dbacc76d7f5853f43b7b2/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/34718cdc3d3dbacc76d7f5853f43b7b2/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0ca5884b128272fa5e8d9d536c413d5d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0ca5884b128272fa5e8d9d536c413d5d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/50691196ca337928f4d018410f4fd40c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/50691196ca337928f4d018410f4fd40c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1d35275bb15ca43fc10cfe587171365d/transformed/jetified-graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1d35275bb15ca43fc10cfe587171365d/transformed/jetified-graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b13ae606429aba385ab8191349598457/transformed/jetified-room-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b13ae606429aba385ab8191349598457/transformed/jetified-room-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db-base:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d40e0f12d46b745bf989124076b94fd1/transformed/jetified-debug-db-base-v1.0.6/AndroidManifest.xml:25:5-27:41
+MERGED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db-base:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d40e0f12d46b745bf989124076b94fd1/transformed/jetified-debug-db-base-v1.0.6/AndroidManifest.xml:25:5-27:41
+MERGED from [androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/761d9e81c80af42f13d9b80eafb60bc7/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/761d9e81c80af42f13d9b80eafb60bc7/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/15246dc4effa810dec4b2c6d8126840b/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/15246dc4effa810dec4b2c6d8126840b/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/cfca67d886b0f7ea2788934ba8ff3373/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/cfca67d886b0f7ea2788934ba8ff3373/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/f2ada68a2698e4dd932ec44d8178c5bf/transformed/jetified-datastore-preferences-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/f2ada68a2698e4dd932ec44d8178c5bf/transformed/jetified-datastore-preferences-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e1080e5101d93e69f33da28846259694/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e1080e5101d93e69f33da28846259694/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45396c0ff001d718ce04c99679e868f9/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45396c0ff001d718ce04c99679e868f9/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/19c9edd419dac2e9c1d17b3bb5ebe9cf/transformed/jetified-play-services-tasks-18.4.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/19c9edd419dac2e9c1d17b3bb5ebe9cf/transformed/jetified-play-services-tasks-18.4.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5224b287679ad03a810947552b73c5cb/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5224b287679ad03a810947552b73c5cb/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/af99de5a6f089068192d428adddc7b55/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/af99de5a6f089068192d428adddc7b55/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.10.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a0f42effd6c7a06c97b5bdaf35bee8f8/transformed/jetified-activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a0f42effd6c7a06c97b5bdaf35bee8f8/transformed/jetified-activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/68fc90afe68afca909ef9d8af3a10669/transformed/jetified-activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/68fc90afe68afca909ef9d8af3a10669/transformed/jetified-activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9d7fd15aead50a74e786a3afa717680f/transformed/jetified-activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9d7fd15aead50a74e786a3afa717680f/transformed/jetified-activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/dd49e4edafac0a878a99bd0636d246de/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/dd49e4edafac0a878a99bd0636d246de/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/53074d746bda121fc636c570075992ef/transformed/jetified-core-ktx-1.18.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/53074d746bda121fc636c570075992ef/transformed/jetified-core-ktx-1.18.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e36079c65b71d37918ae253dfcafddf7/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e36079c65b71d37918ae253dfcafddf7/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/abb36d76400a06d0dc0ce17fd612cd5b/transformed/jetified-core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/abb36d76400a06d0dc0ce17fd612cd5b/transformed/jetified-core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/86ca61e0541b36f93c21c4c3d4a0ec90/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/86ca61e0541b36f93c21c4c3d4a0ec90/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/35c4fbd3c08e0d00fbaea6d5ad92930c/transformed/jetified-sqlite-framework-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/35c4fbd3c08e0d00fbaea6d5ad92930c/transformed/jetified-sqlite-framework-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/23681a4d6704e1c665b766d95f3ec0b7/transformed/jetified-sqlite-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/23681a4d6704e1c665b766d95f3ec0b7/transformed/jetified-sqlite-release/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d7e152fb31e8315d41f95bfc795cd702/transformed/jetified-firebase-components-19.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d7e152fb31e8315d41f95bfc795cd702/transformed/jetified-firebase-components-19.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9bb3cb3f77c0f273b54e47cc4c831efe/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9bb3cb3f77c0f273b54e47cc4c831efe/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b5efbf59dd9d565f13a1c8f3e27b6e3c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/b5efbf59dd9d565f13a1c8f3e27b6e3c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e21cf98418179207453fec44be563ed9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e21cf98418179207453fec44be563ed9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d32574bcf4b926283d552348c5753982/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d32574bcf4b926283d552348c5753982/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/18ff1b5c53b4ee091ff1745c3163ae77/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/18ff1b5c53b4ee091ff1745c3163ae77/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/43cf6b81c19ac8bf295dbe00878e38f7/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/43cf6b81c19ac8bf295dbe00878e38f7/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7a1d9c0aefae66ecc2cd456aae65c5a7/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7a1d9c0aefae66ecc2cd456aae65c5a7/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/68cafc35caf8721c854cfc028bba558b/transformed/jetified-protolite-well-known-types-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/68cafc35caf8721c854cfc028bba558b/transformed/jetified-protolite-well-known-types-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c144fee78507648f600513e1aef9cd0f/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c144fee78507648f600513e1aef9cd0f/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c1f9d6adf2e76383e7d467d403128160/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c1f9d6adf2e76383e7d467d403128160/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:34:17-107
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:29:17-117
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/04ec76a222f400b1ec39cb340258e975/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/04ec76a222f400b1ec39cb340258e975/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/04ec76a222f400b1ec39cb340258e975/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/04ec76a222f400b1ec39cb340258e975/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c1f9d6adf2e76383e7d467d403128160/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c1f9d6adf2e76383e7d467d403128160/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c1f9d6adf2e76383e7d467d403128160/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:36:17-109
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/77d2fea34edbb3cfab0e6e2c4e264c1c/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/77d2fea34edbb3cfab0e6e2c4e264c1c/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:9:22-95
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/663965f2bad9226d5ac77a07324dbf31/transformed/jetified-ui-test-manifest-1.7.2/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/663965f2bad9226d5ac77a07324dbf31/transformed/jetified-ui-test-manifest-1.7.2/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/663965f2bad9226d5ac77a07324dbf31/transformed/jetified-ui-test-manifest-1.7.2/AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7cad6a6ac829f3aabfc8a46fc252cb9d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7cad6a6ac829f3aabfc8a46fc252cb9d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7cad6a6ac829f3aabfc8a46fc252cb9d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e631618760ca5bbfc28974c65f993409/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e631618760ca5bbfc28974c65f993409/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e21cf98418179207453fec44be563ed9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e21cf98418179207453fec44be563ed9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e631618760ca5bbfc28974c65f993409/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e631618760ca5bbfc28974c65f993409/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e631618760ca5bbfc28974c65f993409/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
+permission#com.example.studentassistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.studentassistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+provider#com.amitshekhar.debug.DebugDBInitProvider
+ADDED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:12:9-16:40
+	android:enabled
+		ADDED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:15:13-35
+	android:authorities
+		ADDED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:14:13-71
+	android:exported
+		ADDED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:13:13-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db-base:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d40e0f12d46b745bf989124076b94fd1/transformed/jetified-debug-db-base-v1.0.6/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [com.github.amitshekhariitbhu.Android-Debug-Database:debug-db-base:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d40e0f12d46b745bf989124076b94fd1/transformed/jetified-debug-db-base-v1.0.6/AndroidManifest.xml:30:22-73
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:25:13-74
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5224b287679ad03a810947552b73c5cb/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5224b287679ad03a810947552b73c5cb/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5224b287679ad03a810947552b73c5cb/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:22:13-58
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:15:13-93

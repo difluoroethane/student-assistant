@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "Note": {
+      "title": "Note",
+      "description": "A student's note",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "subject": { "type": "string" },
+        "timestamp": { "type": "integer" }
+      },
+      "required": ["id", "title", "content", "subject", "timestamp"]
+    },
+    "Schedule": {
+      "title": "Schedule",
+      "description": "A student's assignment or schedule item",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "course": { "type": "string" },
+        "dueDate": { "type": "integer" },
+        "priority": { "type": "string" },
+        "status": { "type": "string" }
+      },
+      "required": ["id", "title", "dueDate", "priority", "status"]
+    },
+    "Announcement": {
+      "title": "Announcement",
+      "description": "Campus or course announcement",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "category": { "type": "string" },
+        "timestamp": { "type": "integer" }
+      },
+      "required": ["id", "title", "description", "category", "timestamp"]
+    }
+  },
+  "firestore": {
+    "/notes/{noteId}": {
+      "schema": "Note",
+      "description": "Student notes collection"
+    },
+    "/schedules/{scheduleId}": {
+      "schema": "Schedule",
+      "description": "Student schedules and assignment deadlines"
+    },
+    "/announcements/{announcementId}": {
+      "schema": "Announcement",
+      "description": "Dynamically pushed student announcements"
+    }
+  }
+}

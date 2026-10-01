@@ -1,0 +1,433 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.studentassistant"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:5:5-79
+12-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+13-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:6:5-83
+13-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:6:22-80
+14    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+14-->[com.google.android.recaptcha:recaptcha:18.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/77d2fea34edbb3cfab0e6e2c4e264c1c/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:9:5-98
+14-->[com.google.android.recaptcha:recaptcha:18.6.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/77d2fea34edbb3cfab0e6e2c4e264c1c/transformed/jetified-recaptcha-18.6.1/AndroidManifest.xml:9:22-95
+15
+16    <permission
+16-->[androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.studentassistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.studentassistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->[com.github.amitshekhariitbhu.Android-Debug-Database:debug-db-base:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d40e0f12d46b745bf989124076b94fd1/transformed/jetified-debug-db-base-v1.0.6/AndroidManifest.xml:30:5-76
+21-->[com.github.amitshekhariitbhu.Android-Debug-Database:debug-db-base:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/d40e0f12d46b745bf989124076b94fd1/transformed/jetified-debug-db-base-v1.0.6/AndroidManifest.xml:30:22-73
+22
+23    <application
+23-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:8:5-37:19
+24        android:name="com.example.StudentAssistantApp"
+24-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:9:9-44
+25        android:allowBackup="true"
+25-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:10:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.18.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/0811480ce103cc56f23f55705be0d5c4/transformed/core-1.18.0/AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+28-->INJECTED
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:12:9-43
+30        android:label="@string/app_name"
+30-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:13:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:14:9-54
+32        android:supportsRtl="true"
+32-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:15:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.StudentAssistant"
+34-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:16:9-54
+35        android:usesCleartextTraffic="true" >
+35-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:11:9-44
+36        <activity
+36-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:17:9-26:20
+37            android:name="com.example.MainActivity"
+37-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:18:13-41
+38            android:exported="true"
+38-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:19:13-36
+39            android:theme="@style/Theme.StudentAssistant"
+39-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:21:13-58
+40            android:windowSoftInputMode="adjustResize" >
+40-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:20:13-55
+41            <intent-filter>
+41-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:22:13-25:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:23:17-69
+42-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:23:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:24:17-77
+44-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:24:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <provider
+48-->INJECTED
+49            android:name="androidx.core.content.FileProvider"
+49-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:29:13-62
+50            android:authorities="com.example.studentassistant.fileprovider"
+50-->INJECTED
+51            android:exported="false"
+51-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:31:13-37
+52            android:grantUriPermissions="true" >
+52-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:32:13-47
+53            <meta-data
+53-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:33:13-35:54
+54                android:name="android.support.FILE_PROVIDER_PATHS"
+54-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:34:17-67
+55                android:resource="@xml/file_paths" />
+55-->/home/difluoroethane/Downloads/bruh/app/src/main/AndroidManifest.xml:35:17-51
+56        </provider>
+57
+58        <activity
+58-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:29:9-46:20
+59            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+59-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:30:13-80
+60            android:excludeFromRecents="true"
+60-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:31:13-46
+61            android:exported="true"
+61-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:32:13-36
+62            android:launchMode="singleTask"
+62-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:33:13-44
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+63-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:34:13-72
+64            <intent-filter>
+64-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:35:13-45:29
+65                <action android:name="android.intent.action.VIEW" />
+65-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:36:17-69
+65-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:36:25-66
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:38:17-76
+67-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:38:27-73
+68                <category android:name="android.intent.category.BROWSABLE" />
+68-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:39:17-78
+68-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:39:27-75
+69
+70                <data
+70-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:41:17-44:51
+71                    android:host="firebase.auth"
+71-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:42:21-49
+72                    android:path="/"
+72-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:43:21-37
+73                    android:scheme="genericidp" />
+73-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:44:21-48
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:47:9-64:20
+77            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+77-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:48:13-79
+78            android:excludeFromRecents="true"
+78-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:49:13-46
+79            android:exported="true"
+79-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:50:13-36
+80            android:launchMode="singleTask"
+80-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:51:13-44
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+81-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:52:13-72
+82            <intent-filter>
+82-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:53:13-63:29
+83                <action android:name="android.intent.action.VIEW" />
+83-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:36:17-69
+83-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:36:25-66
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:38:17-76
+85-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:38:27-73
+86                <category android:name="android.intent.category.BROWSABLE" />
+86-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:39:17-78
+86-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:39:27-75
+87
+88                <data
+88-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:41:17-44:51
+89                    android:host="firebase.auth"
+89-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:42:21-49
+90                    android:path="/"
+90-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:43:21-37
+91                    android:scheme="recaptcha" />
+91-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:44:21-48
+92            </intent-filter>
+93        </activity>
+94
+95        <service
+95-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:66:9-72:19
+96            android:name="com.google.firebase.components.ComponentDiscoveryService"
+96-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:67:13-84
+97            android:directBootAware="true"
+97-->[com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:32:13-43
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:68:13-37
+99            <meta-data
+99-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:69:13-71:85
+100                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+100-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:70:17-109
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-auth:24.2.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/1bdc3b56587ff4f800b6f3c1cde7fa9d/transformed/jetified-firebase-auth-24.2.0/AndroidManifest.xml:71:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:17:13-19:85
+103                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+103-->[com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:18:17-122
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:19:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:20:13-22:85
+106                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+106-->[com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:21:17-111
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-firestore:26.5.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/ed9064bdaeb209fe48606ad37172c914/transformed/jetified-firebase-firestore-26.5.0/AndroidManifest.xml:22:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:30:13-32:85
+109                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+109-->[com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:31:17-118
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:32:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:33:13-35:85
+112                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+112-->[com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:34:17-107
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-storage:21.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/a390a9d86702202e9f4c7380249c9176/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:35:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:25:13-27:85
+115                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+115-->[com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:26:17-120
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:27:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:28:13-30:85
+118                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+118-->[com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:29:17-117
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-appcheck:17.1.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/554e6cd7a01254c32fb003e58f2876c5/transformed/jetified-firebase-appcheck-17.1.0/AndroidManifest.xml:30:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c1f9d6adf2e76383e7d467d403128160/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+121                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+121-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c1f9d6adf2e76383e7d467d403128160/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c1f9d6adf2e76383e7d467d403128160/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:35:13-37:85
+124                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+124-->[com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:36:17-109
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:37:17-82
+126        </service>
+127        <service
+127-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+128            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+128-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+129            android:enabled="true"
+129-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+130            android:exported="false" >
+130-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+131            <meta-data
+131-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+132                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+132-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+133                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+133-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+134        </service>
+135
+136        <activity
+136-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+137            android:name="androidx.credentials.playservices.HiddenActivity"
+137-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+138            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+138-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+139            android:enabled="true"
+139-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+140            android:exported="false"
+140-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+141            android:fitsSystemWindows="true"
+141-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+142            android:theme="@style/Theme.Hidden" >
+142-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/difluoroethane/.gradle/caches/9.3.1/transforms/3a4d049e264d35c22ee7c4456d7e55ed/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+143        </activity>
+144        <activity
+144-->[com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+145            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+145-->[com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+146            android:excludeFromRecents="true"
+146-->[com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+147            android:exported="false"
+147-->[com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+148-->[com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+149        <!--
+150            Service handling Google Sign-In user revocation. For apps that do not integrate with
+151            Google Sign-In, this service will never be started.
+152        -->
+153        <service
+153-->[com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+154            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+154-->[com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+155            android:exported="true"
+155-->[com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+156            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+156-->[com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+157            android:visibleToInstantApps="true" />
+157-->[com.google.android.gms:play-services-auth:20.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/c26402fb866d64c2f53deb29ea223eac/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+158
+159        <activity
+159-->[com.google.android.gms:play-services-base:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/04ec76a222f400b1ec39cb340258e975/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:20:9-22:45
+160            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+160-->[com.google.android.gms:play-services-base:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/04ec76a222f400b1ec39cb340258e975/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:20:19-85
+161            android:exported="false"
+161-->[com.google.android.gms:play-services-base:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/04ec76a222f400b1ec39cb340258e975/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:22:19-43
+162            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+162-->[com.google.android.gms:play-services-base:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/04ec76a222f400b1ec39cb340258e975/transformed/jetified-play-services-base-18.9.0/AndroidManifest.xml:21:19-78
+163
+164        <provider
+164-->[com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:23:9-28:39
+165            android:name="com.google.firebase.provider.FirebaseInitProvider"
+165-->[com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:24:13-77
+166            android:authorities="com.example.studentassistant.firebaseinitprovider"
+166-->[com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:25:13-72
+167            android:directBootAware="true"
+167-->[com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:26:13-43
+168            android:exported="false"
+168-->[com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:27:13-37
+169            android:initOrder="100" />
+169-->[com.google.firebase:firebase-common:22.0.1] /home/difluoroethane/.gradle/caches/9.3.1/transforms/421adeb5c6e20ed5e7e9f1e56efe58dc/transformed/jetified-firebase-common-22.0.1/AndroidManifest.xml:28:13-36
+170
+171        <activity
+171-->[androidx.compose.ui:ui-test-manifest:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/663965f2bad9226d5ac77a07324dbf31/transformed/jetified-ui-test-manifest-1.7.2/AndroidManifest.xml:23:9-25:39
+172            android:name="androidx.activity.ComponentActivity"
+172-->[androidx.compose.ui:ui-test-manifest:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/663965f2bad9226d5ac77a07324dbf31/transformed/jetified-ui-test-manifest-1.7.2/AndroidManifest.xml:24:13-63
+173            android:exported="true" />
+173-->[androidx.compose.ui:ui-test-manifest:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/663965f2bad9226d5ac77a07324dbf31/transformed/jetified-ui-test-manifest-1.7.2/AndroidManifest.xml:25:13-36
+174        <activity
+174-->[androidx.compose.ui:ui-tooling-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7cad6a6ac829f3aabfc8a46fc252cb9d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+175            android:name="androidx.compose.ui.tooling.PreviewActivity"
+175-->[androidx.compose.ui:ui-tooling-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7cad6a6ac829f3aabfc8a46fc252cb9d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+176            android:exported="true" />
+176-->[androidx.compose.ui:ui-tooling-android:1.7.2] /home/difluoroethane/.gradle/caches/9.3.1/transforms/7cad6a6ac829f3aabfc8a46fc252cb9d/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+177
+178        <provider
+178-->[androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+179            android:name="androidx.startup.InitializationProvider"
+179-->[androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+180            android:authorities="com.example.studentassistant.androidx-startup"
+180-->[androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+181            android:exported="false" >
+181-->[androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+182            <meta-data
+182-->[androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+183                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+183-->[androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+184                android:value="androidx.startup" />
+184-->[androidx.emoji2:emoji2:1.3.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/9811f179dc51f98f904eff203d6d2649/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+185            <meta-data
+185-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e631618760ca5bbfc28974c65f993409/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+186                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+186-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e631618760ca5bbfc28974c65f993409/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+187                android:value="androidx.startup" />
+187-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/difluoroethane/.gradle/caches/9.3.1/transforms/e631618760ca5bbfc28974c65f993409/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+188            <meta-data
+188-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+189                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+189-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+190                android:value="androidx.startup" />
+190-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+191        </provider>
+192        <provider
+192-->[com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:12:9-16:40
+193            android:name="com.amitshekhar.debug.DebugDBInitProvider"
+193-->[com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:13:13-69
+194            android:authorities="com.example.studentassistant.DebugDBInitProvider"
+194-->[com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:14:13-71
+195            android:enabled="true"
+195-->[com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:15:13-35
+196            android:exported="false" />
+196-->[com.github.amitshekhariitbhu.Android-Debug-Database:debug-db:v1.0.6] /home/difluoroethane/.gradle/caches/9.3.1/transforms/45d5ccc58ed233672120abe069ef2b83/transformed/jetified-debug-db-v1.0.6/AndroidManifest.xml:16:13-37
+197
+198        <service
+198-->[androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:24:9-28:63
+199            android:name="androidx.room.MultiInstanceInvalidationService"
+199-->[androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:25:13-74
+200            android:directBootAware="true"
+200-->[androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:26:13-43
+201            android:exported="false" />
+201-->[androidx.room:room-runtime-android:2.7.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/770e5a3a767b3bbe936997ba02d4f789/transformed/jetified-room-runtime-release/AndroidManifest.xml:27:13-37
+202
+203        <meta-data
+203-->[com.google.android.gms:play-services-basement:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5224b287679ad03a810947552b73c5cb/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:21:9-23:69
+204            android:name="com.google.android.gms.version"
+204-->[com.google.android.gms:play-services-basement:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5224b287679ad03a810947552b73c5cb/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:22:13-58
+205            android:value="@integer/google_play_services_version" />
+205-->[com.google.android.gms:play-services-basement:18.9.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5224b287679ad03a810947552b73c5cb/transformed/jetified-play-services-basement-18.9.0/AndroidManifest.xml:23:13-66
+206
+207        <receiver
+207-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+208            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+208-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+209            android:directBootAware="false"
+209-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+210            android:enabled="true"
+210-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+211            android:exported="true"
+211-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+212            android:permission="android.permission.DUMP" >
+212-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+213            <intent-filter>
+213-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+214                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+214-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+214-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+215            </intent-filter>
+216            <intent-filter>
+216-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+217                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+217-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+217-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+218            </intent-filter>
+219            <intent-filter>
+219-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+220                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+220-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+220-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+221            </intent-filter>
+222            <intent-filter>
+222-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+223                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+223-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+223-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/difluoroethane/.gradle/caches/9.3.1/transforms/5c4b01e6c567141172011f837dddfc8c/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+224            </intent-filter>
+225        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+226        <activity
+226-->[com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+227            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+227-->[com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:15:13-93
+228            android:exported="false"
+228-->[com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:16:13-37
+229            android:stateNotNeeded="true"
+229-->[com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:17:13-42
+230            android:theme="@style/Theme.PlayCore.Transparent" />
+230-->[com.google.android.play:core-common:2.0.3] /home/difluoroethane/.gradle/caches/9.3.1/transforms/05cf7f14a5943d7857a42c5702f3a78f/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:18:13-62
+231    </application>
+232
+233</manifest>

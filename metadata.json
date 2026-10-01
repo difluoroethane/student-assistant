@@ -1,0 +1,8 @@
+{
+  "name": "Student Assistant",
+  "description": "Comprehensive AI-powered Student Assistant featuring AI study tutor, assignments & homework tracker, class schedule timetable, GPA calculator, and flashcards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
